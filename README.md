@@ -4,32 +4,22 @@
 To develop a Recurrent Neural Network (RNN) model for predicting stock prices using historical closing price data.
 
 ## Problem Statement and Dataset
-
 ## DESIGN STEPS
 ### STEP 1: 
 Load and normalize data, create sequences.
-
 ### STEP 2: 
 Convert data to tensors and set up DataLoader.
 ### STEP 3: 
-
 Define the RNN model architecture.
-
 ### STEP 4: 
-
 Summarize, compile with loss and optimizer.
-
 ### STEP 5: 
 Train the model with loss tracking.
-
 ### STEP 6: 
 Predict on test data, plot actual vs. predicted prices.
-
 ## PROGRAM
-
 ### Name:KEERTHANA K
 ### Register Number:212225230137
-
 ```python
 
 from google.colab import drive
@@ -238,23 +228,18 @@ plt.show()
 print(f'Predicted Price: {predicted_prices[-1]}')
 print(f'Actual Price: {actual_prices[-1]}')
 
-
 ```
-
 ### OUTPUT
 
 ## Training Loss Over Epochs Plot
-
 Include your plot here
 <img width="978" height="554" alt="image" src="https://github.com/user-attachments/assets/1ed32bf8-4bc9-46bf-92ac-f8c2385d4fab" />
 <img width="1024" height="634" alt="image" src="https://github.com/user-attachments/assets/771a23b8-36dc-4bd9-a5c3-95a8bbbad7da" />
-
 
 ## True Stock Price, Predicted Stock Price vs time
 
 Include your plot here
 <img width="1035" height="765" alt="image" src="https://github.com/user-attachments/assets/3329563a-cd93-4c5f-8bc1-49171cf032dc" />
-
 
 ### Predictions
 Include the predictions on test data
